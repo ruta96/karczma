@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import math as math
 
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-credentials = ServiceAccountCredentials.from_json_keyfile_name('key/karczma-d1f59c06a458.json', scope)
+credentials = ServiceAccountCredentials.from_json_keyfile_name('key/karczma-938e4a657ce9.json', scope)
 gc = gspread.authorize(credentials)
 
 wks = gc.open("Karczma Baniaka - Raporty z sesji").sheet1
